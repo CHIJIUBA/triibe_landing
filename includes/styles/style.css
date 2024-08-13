@@ -1,63 +1,90 @@
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  header {
-    background: dodgerblue;
-    padding: 32px 64px;
-    font-size: 32px;
-    color: white;
-  }
-  main {
-    display: flex;
-    flex: 1;
-  }
-  aside {
-    width: 300px;
-    flex-shrink: 0;
-    background: palevioletred;
-    color: white;
-  }
-  li {
-    font-size: 24px;
-    list-style-type: none;
-  }
-  
-  section {
-    padding: 16px;
-    margin: 16px;
-    font-size: 24px;
-    background: blanchedalmond;
-  }
-  
-  footer {
-    height: 96px;
-    background: darkslateblue;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  @media (max-width: 800px) {
-    main {
-      flex-direction: column;
-    }
-    header {
-      text-align: center;
-      padding: 24px
-    }
-    aside {
-      width: auto;
-    }
-    ul {
-      display: flex;
-      gap: 16px;
-      justify-content: center;
-      padding: 0;
-    }
-  }
+:root {
+  --navbar-height: 65px;
+}
 
-/* Mobile phones are usually under 500px. Tablets are often between 500px and 1000px. Anything larger than 1000px is likely to be a normal browser screen. Super wide screens are also becoming more common, which means that your site could end up being viewed on a screen wider than 2000px! */
+body {
+  margin: 0;
+  padding: 0px;
+}
+
+.navbar {
+  box-sizing: border-box;
+  height: var(--navbar-height);
+  /* max-width: 600px; */
+  display: flex;
+  position: sticky;
+  background-color: rgba(39, 43, 44, 0.87);
+  top: 0px;
+  /* box-shadow: 0px 2px rgb(173, 166, 166); */
+  align-items: center;
+}
+
+.navimage {
+  display: flex;
+  justify-content: center;
+  flex: 2 1 auto;
+}
+
+.navbuttons {
+  flex: auto;
+}
+
+.navlinks{
+  flex: 4 1 auto;
+}
+
+.navimage img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.navlinks ul {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.navlinks ul li {
+  list-style: none;
+}
+
+.navbuttons ul {
+  justify-content: left;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.navbuttons ul li { 
+  list-style: none;
+}
+.navlinks ul li a {
+  text-decoration: none;
+  color: rgb(241, 240, 243);
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.navlinks ul li a:hover {
+  color: rgb(190, 81, 17);
+}
+.navbuttons  button {
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 8px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+#signup {
+  color: white;
+  background-color: rgb(91, 204, 91);
+  border: none;
+}
+/* end of navbar  */
+
+/* begining of first section */
+.first-section {
+  background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+/* end of first section */

@@ -3,18 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saveek | Home</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    <link rel="stylesheet" href="includes/styles/style.css">
+    <title>Home</title>
 </head>
 <body>
-    <nav class="headbar">
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Contact</li>
-                <li><a href="test.html">click</a></li>
-                <li></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="first-section">
+        <nav class="navbar">
+            <div class="navimage">
+                <img src="includes/images/complete_logo.PNG" alt="saveek_logo">
+            </div>
+            <div class="navlinks">
+                <ul>
+                    <li>
+                        <a href="#">Email Testing</a>
+                    </li>
+                    <li>
+                        <a href="#">Email Sending</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Resources</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbuttons">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <button>Log In</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <button id="signup">Sign Up</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </body>
 </html>
