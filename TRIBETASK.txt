@@ -1,0 +1,30 @@
+Task: Create a Landing Page
+We would like you to create a landing page for a fictional product or service. This task will help us evaluate your proficiency in HTML, CSS, and JavaScript, 
+as well as your design sensibility.
+
+Task Details:
+Product/Service: [Example: "Eco-friendly Reusable Water Bottles"]
+Design: The page should be visually appealing, responsive, and user-friendly. Feel free to use your creativity, but ensure that it aligns with modern design principles.
+
+Content Sections: The landing page should include the following sections:
+Header: Logo, navigation menu, and a call-to-action button.
+
+Hero Section: A large image or video, a headline, and a subheading that highlights the main value proposition.
+Features Section: A brief overview of the product/service features with icons or images.
+Testimonials: A section with 2-3 customer testimonials.
+
+Call to Action: A final section encouraging users to take action (e.g., sign up, purchase, etc.).
+Footer: Contact information, social media links, and additional navigation links.
+
+
+
+Technologies: You can use HTML, CSS, and JavaScript. You are welcome to use any libraries or frameworks you are familiar with, but please document them.
+Deadline: Please submit your completed task by 19th, Friday, August 2024.
+Submission: Send us the files in a .zip format or upload them to a repository (e.g., GitHub) and share the link with us.
+We are not only looking at the final product but also how you approach the task, your attention to detail, and your ability to deliver a clean, functional design.
+
+https://www.istockphoto.com/photo/a-laptop-with-a-blank-screen-sits-on-a-stylish-wooden-desk-within-a-loft-style-gm1954422116-557412334?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Flaptop&utm_medium=affiliate&utm_source=unsplash&utm_term=laptop%3A%3A%3A
+
+https://preview.colorlib.com/#furn
+
+devicons => https://devicon.dev/
