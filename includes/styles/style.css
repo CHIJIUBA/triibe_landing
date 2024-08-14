@@ -61,6 +61,23 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
+
+@media (max-width:650px) {
+
+  .navlinks {
+    display: none;
+  }
+
+  .navbuttons {
+    display: none;
+  }
+
+  .navimage {
+    display: none;
+  }
+  
+}
+
 .navlinks ul li a:hover {
   color: rgb(190, 81, 17);
 }
@@ -97,6 +114,17 @@ body {
   margin-left: 80px;
 }
 
+@media (max-width:650px) {
+
+  .head-caption {
+    margin-left: 40px;
+  }
+
+  .head-caption h1 {
+    font-size: 65px;
+  }
+}
+
 .head-caption h1 {
   color: white; 
   font-size: 85px; 
@@ -108,10 +136,6 @@ body {
   font-size: 18px; 
   line-height: 25px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-@media (max-width: 1250px) {
-  
 }
 
 .head-button button {
