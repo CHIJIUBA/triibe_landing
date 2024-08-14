@@ -28,3 +28,5 @@ https://www.istockphoto.com/photo/a-laptop-with-a-blank-screen-sits-on-a-stylish
 https://preview.colorlib.com/#furn
 
 devicons => https://devicon.dev/
+
+Mobile phones are usually under 500px. Tablets are often between 500px and 1000px. Anything larger than 1000px is likely to be a normal browser screen.
