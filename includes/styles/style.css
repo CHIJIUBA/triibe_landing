@@ -44,6 +44,10 @@ body {
   display: none;
 }
 
+.icon a {
+  color: white;
+}
+
 .navlinks ul {
   justify-content: space-around;
   align-items: center;
@@ -145,7 +149,7 @@ body {
 
 .head-caption h1 {
   color: white; 
-  font-size: 85px; 
+  font-size: 40px; 
   line-height: 65px;
 }
 
