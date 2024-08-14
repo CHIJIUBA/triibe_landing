@@ -10,12 +10,10 @@ body {
 .navbar {
   box-sizing: border-box;
   height: var(--navbar-height);
-  /* max-width: 600px; */
   display: flex;
   position: sticky;
   background-color: rgba(39, 43, 44, 0.87);
   top: 0px;
-  /* box-shadow: 0px 2px rgb(173, 166, 166); */
   align-items: center;
 }
 
@@ -86,5 +84,42 @@ body {
   background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg");
   background-size: cover;
   height: 100vh;
+}
+
+.top-caption {
+  margin-top: 100px;
+}
+
+.head-caption {
+  border-left: 2px solid white;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-left: 80px;
+}
+
+.head-caption h1 {
+  color: white; 
+  font-size: 85px; 
+  line-height: 65px;
+}
+
+.head-caption p {
+  color: white; 
+  font-size: 18px; 
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-button button {
+  margin-top: 20px;
+  padding: 20px;
+  min-width: 250px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+.head-button button:hover {
+  background-color: black;
+  color: white;
 }
 /* end of first section */
