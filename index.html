@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
     <link rel="stylesheet" href="includes/styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home</title>
@@ -15,7 +14,7 @@
                 <img src="includes/images/complete_logo.PNG" alt="saveek_logo">
             </div>
             <div class="navlinks">
-                <ul>
+                <ul id="navlink-list">
                     <li>
                         <a href="#">Email Testing</a>
                     </li>
@@ -31,7 +30,7 @@
                 </ul>
             </div>
             <div class="navbuttons">
-                <ul>
+                <ul id="navbuttons-list">
                     <li>
                         <a href="#">
                             <button>Log In</button>
@@ -44,7 +43,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="icon">   
+            <div class="icon" id="menu">   
                 <a href="javascript:void(0);">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -65,6 +64,6 @@
     <div class="second section">
         <h1 style="text-align: center;">What we do</h1>
     </div>
-    <script src=""></script>
+    <script src="includes/scripts/index.js"></script>
 </body>
 </html>

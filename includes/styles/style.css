@@ -80,6 +80,33 @@ body {
     display: none;
   }
 
+  #navlink-list .responsive {
+    position: relative;
+  }
+
+  #navlink-list .responsive li {
+    position: absolute;
+    right: 0;
+    top: 65px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px
+  }
+
+  /* .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  } */
+  
+
   .navbuttons {
     display: none;
   }
@@ -91,6 +118,7 @@ body {
   .navbar {
     justify-content: right;
   }
+
   .icon {
     display: block;
     margin-right: 25px;
@@ -143,13 +171,13 @@ body {
   }
 
   .head-caption h1 {
-    font-size: 65px;
+    font-size: 40px;
   }
 }
 
 .head-caption h1 {
   color: white; 
-  font-size: 40px; 
+  font-size: 85px; 
   line-height: 65px;
 }
 
