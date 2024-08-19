@@ -9,3 +9,4 @@ Additional Technologies: Devicon Icons [https://devicon.dev/]
 
 
 to view the finished site use the url => https://chijiuba.github.io/triibe_landing/
+The project repository url => https://github.com/CHIJIUBA/triibe_landing
