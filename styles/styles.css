@@ -332,6 +332,10 @@ body {
       gap: 25px;
     }
 
+    .footer-footer div p {
+      text-align: center;
+    }
+
   }
 
   /* footer section ends here */
