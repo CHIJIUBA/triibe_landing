@@ -162,6 +162,10 @@ body {
 
   /* service section starts here */
 
+  .service-section {
+    padding: 35px 0px;
+  }
+
   .service-heading {
     margin: 25px 0px 25px 0px;
     text-align: center;
@@ -169,6 +173,8 @@ body {
     font-size: 45px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
+    color: #464646;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .services-container {
@@ -179,19 +185,51 @@ body {
   }
 
   .services-divs {
+    box-sizing: border-box;
     padding: 45px;
-    border: 1px solid black;
     margin-bottom: 35px;
     border-radius: 10PX;
+    box-shadow: 5px 5px lightblue;
 
   }
 
+  .services-divs:hover {
+    border: 1px solid #464646;
+  }
+
+  .service-logo {
+    font-size: 75px;
+    color: #464646;
+  }
+
+  .services-divs h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #464646;
+    font-size: 25px;
+    margin-top: 18px;
+  }
+
   .services-divs p {
+    margin: 25px 0px;
     line-height: 28px;
+    color: #222222;
+    padding: 5px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .services-divs button {
     padding: 10px 18px;
+    background-color: #464646;
+    color: rgb(246, 222, 191);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .button-div {
+    display: flex;
+    justify-content: right;
   }
 
   @media (max-width: 768px) {
