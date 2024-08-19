@@ -3,67 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="includes/styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Home</title>
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <div class="first-section">
-        <nav class="navbar">
-            <div class="navimage">
-                <img src="includes/images/complete_logo.PNG" alt="saveek_logo">
-            </div>
-            <div class="navlinks">
-                <ul id="navlink-list">
-                    <li>
-                        <a href="#">Email Testing</a>
-                    </li>
-                    <li>
-                        <a href="#">Email Sending</a>
-                    </li>
-                    <li>
-                        <a href="#">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#">Resources</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbuttons">
-                <ul id="navbuttons-list">
-                    <li>
-                        <a href="#">
-                            <button>Log In</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <button id="signup">Sign Up</button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="icon" id="menu">   
-                <a href="javascript:void(0);">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </nav>
-        <div class="top-caption">
-           <div class="head-caption">
-            <h1>Saveek <br> Computers</h1>
-            <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration</p>
-            <div class="head-button">
-                <button>About Company</button>
-                <button>Contact</button>
-            </div>
-           </div>
+
+<nav class="navbar">
+    <div class="brand-title">Brand</div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="top-caption">
+    <div class="head-caption">
+        <h1>Saveek <br> Computers</h1>
+        <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration</p>
+        <div class="head-button">
+            <button>Sign Up</button>
+            <button>Log In</button>
         </div>
     </div>
+</section>
 
-    <div class="second section">
-        <h1 style="text-align: center;">What we do</h1>
+<!-- begining of the services section -->
+<section class="service-section">
+    <h2 class="service-heading">What we do</h2>
+    <div class="services-container">
+        <div class="services-divs">
+            <h3>Website <br> Development</h3>
+            <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which</p>
+            <button>Read More</button>
+        </div>
+        <div class="services-divs">
+            <h3>Website <br> Development</h3>
+            <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which</p>
+            <button>Read More</button>
+        </div>
+        <div class="services-divs">
+            <h3>Website <br> Development</h3>
+            <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which</p>
+            <button>Read More</button>
+        </div>
     </div>
-    <script src="includes/scripts/index.js"></script>
+</section>
+<!-- end of the services section -->
+
+<!-- begining of testimonial section -->
+<section class="customer-testimonial">
+    <div class="testimonial-container">
+        <img src="images/customer-testimonial1.jpg" alt="" id="testimonial-image">
+        <p id="testimonial">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem IpsumIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+        <p id="testimonial-author">John Doe</p>
+        <div class="testimonial-button">
+            <button id="prev-btn">Prev</button>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+</section>
+<!-- end of the testimonial section -->
+
+<!-- begining of video section -->
+<section class="video-section">
+    <div></div>
+    <div></div>
+</section>
+<!-- end of video section -->
+
+
+<!-- begining of footer section -->
+ <section class="footer">
+    <div class="footer-divs">
+        <div class="div-foot">
+            <h3>USEFUL LINKS</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>What we do</li>
+                <li>Portfolio</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        <div class="div-foot">
+            <h3>News</h3>
+            <p>It is a long established
+                fact that a reader will
+                be distracted by the
+                readable content of a
+                page when</p>
+        </div>
+        <div class="div-foot">
+            <h3>Company</h3>
+            <p>It is a long established
+                fact that a reader will
+                be distracted by the
+                readable content of a
+                page when</p>
+        </div>
+        <div class="div-foot">
+            <h3>Contact Us</h3>
+        </div>
+    </div>
+    <div>
+        <div>
+            <p>© 2020 All Rights Reserved. Free Html Template</p>
+        </div>
+        <div></div>
+    </div>
+ </section>
+<!-- end of footer section -->
+<script src="scripts/index.js"></script>
 </body>
 </html>

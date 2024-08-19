@@ -1,0 +1,269 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(39, 43, 44, 0.87);
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    min-height: 50px;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    padding: 0 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .navbar .brand-title {
+        display: none;
+    }
+}
+
+/* top caption starts here */
+.top-caption {
+    background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .head-caption {
+    border-left: 2px solid white;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 80px;
+    min-width: 250px;
+    background-color: rgba(39, 43, 44, 0.87);;
+    padding: 25px;
+  }
+  
+  .head-caption h1 {
+    color: white; 
+    font-size: 85px; 
+    line-height: 65px;
+  }
+  
+  .head-caption p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white; 
+    font-size: 18px; 
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .head-button button {
+    margin-top: 20px;
+    padding: 20px;
+    min-width: 250px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px){
+    .head-caption {
+        margin: 0px 25px 0px 25px;
+    }
+
+    .head-caption h1 {
+        font-size: 45px;
+    }
+  }
+
+  .head-button button:hover {
+    background-color: black;
+    color: white;
+  }
+  /* top caption ends here */
+
+  /* service section starts here */
+
+  .service-heading {
+    margin: 25px 0px 25px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }
+
+  .services-container {
+    display: flex;
+    flex: 1;
+    padding: 0px 100px;
+    gap: 25px;
+  }
+
+  .services-divs {
+    padding: 25px;
+    border: 1px solid black;
+    margin-bottom: 35px;
+  }
+
+  .services-divs p {
+    line-height: 28px;
+  }
+
+  .services-divs button {
+    padding: 10px 18px;
+  }
+
+  @media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+    }
+
+    .services-container {
+        padding: 0px 25px;
+    }
+
+  }
+  /* service section starts here */
+
+  /* customer testimonial starts here */
+  .customer-testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    background-color: #333;
+  }
+  
+  .testimonial-container{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #testimonial-image {
+    height: 260px;
+    width: auto;
+    border-radius: 50px;
+  }
+
+  #testimonial {
+    margin: 25px 0px;
+    color: white;
+    text-align: center;
+  }
+
+#testimonial-author {
+    color: gray;
+}
+
+  #prev-btn, #next-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* customer testimonial end here */
+
+  /* video section starts here */
+  .video-section {
+    height: 400px;
+  }
+  /* video section ends here */
+
+
+  /* footer section starts here */
+  .footer {
+    background-color: #222222;
+    color: white;
+    padding: 35px;
+  }
+  .footer-divs {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  .div-foot {
+    width: 350px;
+  }
+
+  .div-foot ul li {
+    list-style: none;
+  }
+
+  /* footer section ends here */
