@@ -179,9 +179,11 @@ body {
   }
 
   .services-divs {
-    padding: 25px;
+    padding: 45px;
     border: 1px solid black;
     margin-bottom: 35px;
+    border-radius: 10PX;
+
   }
 
   .services-divs p {
@@ -206,11 +208,21 @@ body {
 
   /* customer testimonial starts here */
   .customer-testimonial {
+    background-color: #333;
+    padding-top: 25px;
+  }
+
+  .customer-testimonial h2 {
+    text-align: center;
+    color: rgb(246, 222, 191);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .customer-testimonial-flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 35px;
-    background-color: #333;
   }
   
   .testimonial-container{
@@ -235,19 +247,6 @@ body {
 #testimonial-author {
     color: rgb(246, 222, 191);;
 }
-
-  #prev-btn, #next-btn {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
   
   /* customer testimonial end here */
 
@@ -313,7 +312,17 @@ body {
   }
 
   @media (max-width: 768px) {
-    
+    .footer-divs {
+      flex-direction: column;
+      padding-left: 25PX;
+    }
+
+    .footer-footer {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+
   }
 
   /* footer section ends here */
