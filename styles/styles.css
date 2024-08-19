@@ -21,8 +21,21 @@ body {
 }
 
 .brand-title {
-    font-size: 1.5rem;
-    color: white;
+    display: flex;
+    flex: 1;
+    color: rgb(246, 222, 191);
+    align-items: center;
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.brand-logo {
+  font-size: 50px;
+}
+
+.brand-name {
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navbar-links ul {
@@ -108,7 +121,7 @@ body {
   }
   
   .head-caption h1 {
-    color: white; 
+    color: rgb(246, 222, 191);; 
     font-size: 85px; 
     line-height: 65px;
   }
@@ -249,13 +262,13 @@ body {
   .footer {
     background-color: #222222;
     color: white;
-    padding: 35px;
   }
   .footer-divs {
     display: flex;
     flex: 1;
     justify-content: center;
     gap: 35px;
+    padding: 35px;
   }
 
   .div-foot {
@@ -264,6 +277,13 @@ body {
 
   .div-foot ul li {
     list-style: none;
+  }
+
+  .footer-footer {
+    background-color: #111111;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
   }
 
   /* footer section ends here */
