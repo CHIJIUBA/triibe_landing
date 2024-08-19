@@ -247,7 +247,8 @@ body {
   }
 
 #testimonial-author {
-    color: rgb(246, 222, 191);;
+    color: rgb(246, 222, 191);
+    font-style: italic;
 }
 
 @media (max-width: 768px) {
